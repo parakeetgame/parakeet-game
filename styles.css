@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00d8ff;
+}
+
+.red-square {
+    width: 50px; /* Shrink the square size */
+    height: 50px; /* Shrink the square size */
+    background-color: red;
+    position: absolute;
+    transition: 0.1s ease; /* Faster transition */
+}
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #00FFFF; /* Set background color to cyan */
+        }
+
+        .header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7); /* Background with transparency */
+            color: white;
+            font-size: 24px;
+            padding: 20px 0;
+            z-index: 1; /* Keep the text on top */
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
